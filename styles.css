@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(4, 4, 71);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  color: rgb(4, 4, 71);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.presentation {
+  background-color: rgb(4, 4, 71);
+  color: whitesmoke;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.presentation p {
+  margin: 0;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(4, 4, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(146, 146, 146);
+}
+
+.logo-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(146,146, 146);
+  margin-right: 5px;
+}
+
+.login-form input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.change-access {
+  position: center;
+  bottom: 50px;
+  left: 50px;
+}
+
+.change-access a {
+  color: blue;
+  text-decoration: none;
+}
